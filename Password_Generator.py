@@ -2,7 +2,7 @@ import random
 import string
 def generate_password (length):
 
-    custom_symbols = '@#$%&'    
+    custom_symbols = '@#$%&'    # Here, I have used some custom symbols that will be generated in the password. To use any punctuation symbol we can use 'string.punctuation'.
     letters = string.ascii_letters
     digits = string.digits
 
